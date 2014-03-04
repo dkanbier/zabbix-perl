@@ -1,6 +1,8 @@
 zabbix-perl
 ===========
-This is a simple Perl module to wrap API calls to Zabbix. 
+This is a simple Perl module to wrap API calls to Zabbix so they can be used in Perl scripts.
+
+For more information about the Zabbix API please see [Zabbix API](https://www.zabbix.com/documentation/2.2/manual/api "Zabbix 2.2 API"). 
 
 Examples
 --------
