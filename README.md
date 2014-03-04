@@ -25,4 +25,4 @@ if ($result->{'result'}) {
 	print "Host exists in Zabbix\n";
 } else {
 	print "Host doesn't exist in Zabbix\n";
-}```
+}
