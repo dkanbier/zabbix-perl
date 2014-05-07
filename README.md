@@ -13,7 +13,7 @@ Check if a host exists in Zabbix:
 
 use Zabbix;
 
-my $zabbix = Zabbix:new("Zabbix","http://zabbix-dev.kanbier.lan","apiuser","changeme");
+my $zabbix = Zabbix::new("Zabbix","http://zabbix-dev.kanbier.lan","apiuser","changeme");
 
 my @params = (
 	{
