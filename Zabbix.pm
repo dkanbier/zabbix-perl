@@ -8,7 +8,7 @@ package Zabbix;
 ################################################################################
 
 use strict;
-use JSON::XS;
+use JSON;
 use LWP::UserAgent;
 
 sub new {
@@ -26,7 +26,7 @@ sub new {
 
     $req->content(encode_json( {
         jsonrpc => "2.0",
-        method => "user.authenticate",
+        method => "user.login",
         params => {
             user => $user,
             password => $password,
